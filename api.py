@@ -4,9 +4,6 @@ import pickle as p
 import pandas as pd
 import json
 import top_movies
-# import content_based_movie_recommender
-# import collaborative_filtering_model
-# import collaborative_filtering_movie_recommender
 from top_movies import get_top_10
 from top_movies import get_top_by_genre
 from content_based_movie_recommender import get_improved_recomendations_as_json
